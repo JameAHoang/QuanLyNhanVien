@@ -1,0 +1,17 @@
+@media only screen and (min-width: 1300px) {
+  .box {
+    display: flex;
+    .tabList {
+      width: 15%;
+      .MuiTabs-scrollable {
+        position: fixed;
+        width: 186px;
+      }
+    }
+    .tabPanel {
+      background-color: #efefef;
+      padding: 50px;
+      width: 87%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.diplomaMain {
+  min-height: 300px;
+  padding: 24px 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 #ccc;
+  .titleDiploma {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+  }
+  .table {
+    border: 1px solid #000;
+  }
+  .head {
+    border: 1px solid #000;
+    font-weight: bold;
+  }
+  .cell {
+    border: 1px solid #000;
+    font-weight: lighter !important;
+  }
+}

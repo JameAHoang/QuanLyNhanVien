@@ -1,0 +1,82 @@
+.regignationMain {
+  font-family: "Times New Roman", Times, serif !important;
+  min-height: 1000px;
+  padding: 24px 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 #ccc;
+  .titleMain {
+    font-family: "Times New Roman", Times, serif !important;
+    font-weight: bold;
+  }
+
+  .MuiPaper-elevation1 {
+    box-shadow: none;
+  }
+  .regignationContent {
+    font-size: 18px;
+    .title {
+      font-family: "Times New Roman", Times, serif !important;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .borderBottom {
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 12px;
+        height: 1px;
+        border-bottom: 1px dotted #000;
+      }
+    }
+    .textValidator {
+      .MuiOutlinedInput-notchedOutline {
+        border-style: none !important;
+        .MuiOutlinedInput-input {
+          padding: 0 !important;
+        }
+      }
+    }
+    .area-dotted {
+      position: relative;
+      textarea {
+        line-height: 36px !important;
+        background-color: transparent !important;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 9 6"><circle cx="2" cy="2" r="2" fill="black" /></svg>') !important;
+        background-position: 0 6px !important;
+        background-size: 2px 36px !important;
+        overflow: hidden !important;
+      }
+      .MuiOutlinedInput-multiline {
+        padding: 0 !important;
+      }
+      .MuiInput-underline {
+        &:before {
+          content: unset;
+        }
+
+        &:after {
+          content: unset;
+        }
+      }
+      &::before {
+        content: " ";
+        height: 9px;
+        background-color: #fff;
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        z-index: 1;
+        width: 85%;
+      }
+    }
+  }
+  .regignationPromise {
+    font-family: "Times New Roman", Times, serif !important;
+    .content {
+      font-size: 18px;
+    }
+  }
+}

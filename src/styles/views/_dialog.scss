@@ -1,0 +1,92 @@
+.pd-none {
+  padding: 0px !important;
+}
+.pd-8 {
+  padding: 8px 8px !important;
+}
+.dialogTitle {
+  border-bottom: 1px solid #ddd;
+  .title {
+    font-size: 24px;
+  }
+  .iconClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .MuiDialogContent-root {
+    padding: 8px 0px;
+  }
+}
+
+.dialogContent {
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+  margin-top: 10px;
+  padding-bottom: 15px !important;
+  background-color: #fff;
+  overflow: auto;
+  .tab {
+    color: #7467ef;
+    font-size: 18px;
+
+    .MuiTab-wrapper {
+      display: block !important;
+    }
+  }
+}
+.dialogContent::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+}
+
+.dialogActions {
+  justify-content: center !important;
+  .error {
+    background-color: red;
+    color: #ffffff;
+    &:hover {
+      background-color: red;
+      color: #ffffff;
+    }
+  }
+  .primary {
+    color: #ffffff;
+    background-color: #7467ef;
+    &:hover {
+      color: #ffffff;
+      background-color: #7467ef;
+    }
+  }
+  .secondary {
+    color: #ffffff;
+    background-color: #ff9e43;
+    &:hover {
+      color: #ffffff;
+      background-color: #ff9e43;
+    }
+  }
+  .green {
+    color: #ffffff;
+    background-color: green;
+    &:hover {
+      color: #ffffff;
+      background-color: green;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dialogActions {
+    text-align: end;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .dialogContent {
+    .tab {
+      text-align: start;
+    }
+  }
+}

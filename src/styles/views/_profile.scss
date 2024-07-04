@@ -1,0 +1,302 @@
+.profileMain {
+  font-family: Roboto, sans-serif;
+  min-height: 1000px;
+  padding: 64px 30px;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 0 #ccc;
+  .avatarProfile {
+    margin-left: 30px;
+    margin-top: 90px;
+    width: 185px;
+    height: 185px;
+  }
+  .icon-right {
+    position: relative;
+    right: 36px;
+    top: -2px;
+    .icon {
+      color: white;
+      background-color: #4f4e51 !important;
+      width: 35px;
+      height: 35.6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      opacity: 0.8;
+      .MuiSvgIcon-root {
+        font-size: 20px;
+      }
+    }
+  }
+  .list-ul-skill {
+    margin-left: -4px;
+    margin-top: 6px;
+    margin-bottom: 8.3px !important;
+    .list-li-skill {
+      margin-top: -1px;
+      margin-left: -9px;
+      font-size: 15px;
+    }
+  }
+  .list-ul-activate {
+    margin-left: -4px;
+    margin-top: 6px;
+    margin-bottom: -6px !important;
+    .list-li-activate {
+      margin-top: -1px;
+      margin-left: -9px;
+      font-size: 15px;
+    }
+  }
+  .list-ul-exp {
+    width: 530px;
+    margin-left: -13px;
+    margin-top: 6px;
+    margin-bottom: -6px !important;
+    .list-li-exp {
+      margin-top: -1px;
+      margin-left: -9px;
+      font-size: 15px;
+    }
+  }
+  .emailIcon {
+    margin-left: 14px;
+  }
+  .phoneIcon {
+    margin-left: 90px;
+  }
+  .genderIcon,
+  .birthdayIcon,
+  .addressIcon {
+    margin-bottom: 9px !important;
+  }
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    .textContact {
+      width: 250px;
+      padding-left: 15px;
+      font-size: 15px;
+    }
+  }
+  .titleName {
+    margin-left: 2px;
+    height: 56px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3.13px;
+  }
+  .titleTeam {
+    margin-top: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .titleSkill {
+    font-size: 18.5px;
+  }
+  .title {
+    margin-top: 6px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+  }
+  .titleCustom {
+    font-size: 18.5px;
+    margin-left: 0 !important;
+  }
+  .language {
+    letter-spacing: 0px;
+    font-size: 18.5px;
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;
+  }
+  .informatics {
+    letter-spacing: 0.5px;
+    font-size: 18.5px;
+    margin-top: 27.5px !important;
+    margin-bottom: 7px;
+  }
+  .activate {
+    font-size: 18.2px;
+    margin-top: 28px !important;
+  }
+  .borderName {
+    border-left: 1px solid #000;
+    margin: 13px 0 22px -9px;
+    padding: 0 0 0 32px !important;
+  }
+  .careerObjective {
+    .titleCareerObjective {
+      margin-left: 4px;
+      margin-bottom: 10px;
+    }
+  }
+  .border {
+    border-left: 1px solid #000;
+    margin: 18px 0 14px -7px;
+    padding: 0 0 0 32px !important;
+    .careerGoal {
+      margin-top: 14px;
+      line-height: 23px;
+      background-color: #ededed;
+      padding: 2px 14px;
+      border-radius: 12px;
+      text-align: justify;
+      width: 540px;
+      position: relative;
+    }
+    .careerGoal::after {
+      content: "\201D";
+      position: absolute;
+      bottom: -5px;
+      right: 13px;
+      font-size: 35px;
+    }
+    .careerGoal::before {
+      content: "\201C";
+      position: absolute;
+      bottom: 0;
+      top: 12px;
+      left: 9px;
+      font-size: 35px;
+    }
+  }
+  .formMain {
+    margin-top: 15px;
+    padding-left: 15px;
+    .formContent {
+      display: flex;
+      flex-direction: column;
+      .title-infor {
+        margin-top: 9px;
+        height: 24.2px;
+        display: flex;
+        align-items: center;
+        .name {
+          margin-left: 5px;
+          font-size: 15px;
+          width: 39.5%;
+        }
+        .evaluate {
+          padding-top: 5px;
+          padding-left: 16px;
+          width: 115px;
+          text-align: start;
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+          padding-right: 27px;
+          & span {
+            margin-top: -4px;
+            background-color: #1d1b21 !important;
+            width: 8px;
+            height: 8px;
+            border-radius: 0px;
+            border-width: 0px;
+            transform: rotate(45deg);
+            display: inline-block;
+            vertical-align: middle;
+          }
+          & span.not-active {
+            opacity: 0.5;
+          }
+        }
+      }
+      .text {
+        margin-left: 10px;
+        width: 280px;
+      }
+      .area-dotted {
+        textarea {
+          line-height: 30px !important;
+          background-color: transparent !important;
+          background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 9 6"><circle cx="2" cy="2" r="2" fill="black" /></svg>') !important;
+          background-position: 0 6px !important;
+          background-size: 2px 30px !important;
+          overflow: hidden !important;
+        }
+        .MuiInput-underline {
+          &:before {
+            content: unset;
+          }
+
+          &:after {
+            content: unset;
+          }
+        }
+        &::before {
+          content: " ";
+          height: 9px;
+          background-color: #fff;
+          left: 0px;
+          right: 0px;
+          position: absolute;
+          z-index: 1;
+          width: 85%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .profileMain {
+    .formMain {
+      .formContent {
+        .text {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .profileMain {
+    .formMain {
+      .formContent {
+        .text {
+          width: 260px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .profileMain {
+    .formMain {
+      .formContent {
+        .text {
+          width: 240px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  .profileMain {
+    .formMain {
+      .formContent {
+        .text {
+          width: 210px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileMain {
+    .formMain {
+      .formContent {
+        .text {
+          width: 190px;
+        }
+      }
+    }
+  }
+}

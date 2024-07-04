@@ -1,0 +1,71 @@
+.workExperienceHeader {
+  display: flex;
+  justify-content: space-between;
+  .btnAdd {
+    margin-top: -8px;
+  }
+  .titleCustom {
+    letter-spacing: 0.1px;
+    margin-top: -1px !important;
+    margin-left: 0px !important;
+  }
+}
+.workExperienceContent {
+  position: relative;
+  &:hover {
+    border: 1px solid #ddd;
+  }
+  &:hover .workExperienceBtn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 90%;
+    background-color: hsla(0, 0%, 100%, 0.8);
+  }
+  .workExperienceBtn {
+    display: none;
+  }
+}
+.workExperienceTitle {
+  margin-top: 2px !important;
+  .workExperienceMain {
+    margin-top: -10px !important;
+    .dateWorkExperience {
+      letter-spacing: 0.2px;
+    }
+    .dotted {
+      padding: 4px 14px !important;
+    }
+    .nameCompany {
+      letter-spacing: 0.15px;
+    }
+  }
+}
+.addressCompany {
+  letter-spacing: 0.1px;
+  margin-top: -6px !important;
+  margin-left: -3px !important;
+}
+
+.titleContent {
+  text-transform: uppercase;
+  font-size: 17.8px;
+  font-weight: bold;
+  margin-left: -3px;
+}
+.textField {
+  margin-top: 3px;
+  padding-left: 5px;
+  border: none;
+  width: 350px;
+  .MuiInput-root {
+    line-height: 20px;
+  }
+  textarea {
+    line-height: 23px;
+  }
+}
